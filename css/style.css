@@ -74,14 +74,14 @@ h6            { font-size:0.91em; line-height:normal; font-weight:normal; }
 /*==Header===========================*/
 .header { }
 .header .header-top {
-  background: rgba(0, 0, 0, 0) url("../img/header.jpg") no-repeat scroll center bottom / cover ;
+  background: rgba(0, 0, 0, 0) url("../img/banner1.png") no-repeat scroll center bottom / cover ;
   border-bottom: 16px solid #eaeaea;
   padding: 110px 0 510px;
   position: relative;
 }
 
 .header .header-top::before {
-    background: rgba(0, 0, 0, 0) url("../img/responsive.png") no-repeat scroll 0 0;
+    /* background: rgba(0, 0, 0, 0) url("../img/responsive.png") no-repeat scroll 0 0; */
     bottom: -108px;
     content: "";
     height: 516px;
@@ -160,10 +160,10 @@ overflow: hidden;
   transition: all .3s ease 0s;
 }
 .title-page a:hover {
-  background: #1BB4B9;
+  background: #3b82de;
   color: #fff;
 }
-.advertise-area a:hover{background: #fff; color: #1BB4B9}
+.advertise-area a:hover{background: #fff; color: #3b82de}
 .padding{padding-top: 60px}
 .pages-title {
   margin-bottom: 48px;
@@ -192,7 +192,7 @@ overflow: hidden;
     margin-bottom: 30px;
 }
 .advertise-area {
-    background: #1bb4b9 none repeat scroll 0 0;
+    background: #3b82de repeat scroll 0 0;
     padding: 60px 0;
 }
 , .advertise-area a:hover {background: #fff}
@@ -288,7 +288,7 @@ background-color: #000;
   background-position: center 100%;
 }
 #demos .button {
-  background: #1bb4b9 none repeat scroll 0 0;
+  background: #3b82de repeat scroll 0 0;
   border-radius: 30px;
   color: #fefefe;
   display: inline-block;
@@ -321,12 +321,12 @@ a.buttons {
 }
 a.buttons:hover{ text-decoration: none; opacity: 0.7;}
 .footer-inner span a {
-    color: #1bb4b9;
+    color: #3b82de;
     display: inline-block;
     position: relative;
 }
 .footer-inner a:hover::after {
-    border-bottom: 1px solid #1bb4b9;
+    border-bottom: 1px solid #3b82de;
     bottom: 0;
     content: "";
     left: 0;
